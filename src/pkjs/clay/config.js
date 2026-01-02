@@ -19,6 +19,7 @@ module.exports = [
                 "type": "toggle",
                 "label": "Leading zero",
                 "messageKey": "timeLeadingZero",
+                "defaultValue": true
             },
             {
                 "type": "toggle",
@@ -83,7 +84,7 @@ module.exports = [
                 "type": "select",
                 "label": "Start week on",
                 "messageKey": "weekStartDay",
-                "defaultValue": "sun",
+                "defaultValue": "mon",
                 "options": [
                     {
                         "label": "Sunday",
@@ -156,7 +157,7 @@ module.exports = [
             },
             {
                 "type": "select",
-                "defaultValue": "f",
+                "defaultValue": "c",
                 "messageKey": "temperatureUnits",
                 "label": "Temperature Units",
                 "options": [
@@ -226,11 +227,11 @@ module.exports = [
                 "type": "toggle",
                 "label": "Vibrate on bluetooth disconnect",
                 "messageKey": "vibe",
-                "defaultValue": false
+                "defaultValue": true
             },
             {
                 "type": "select",
-                "defaultValue": "both",
+                "defaultValue": "disconnected",
                 "messageKey": "btIcons",
                 "label": "Show icon for bluetooth",
                 "options": [
