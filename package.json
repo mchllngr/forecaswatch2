@@ -1,6 +1,6 @@
 {
   "name": "forecaswatch2",
-  "author": "Matt Rossman",
+  "author": "Michael Langer",
   "version": "1.24.0",
   "keywords": [
     "pebble-app"
@@ -16,8 +16,8 @@
     "suncalc": "^1.9.0"
   },
   "pebble": {
-    "displayName": "FCW2",
-    "uuid": "7ed9b053-1521-4e49-be8b-6e12c68978ae",
+    "displayName": "ForecasWatch 2 (Fork)",
+    "uuid": "423f9514-46af-4654-ac51-da421ae871b5",
     "sdkVersion": "3",
     "enableMultiJS": true,
     "targetPlatforms": [
